@@ -62,7 +62,32 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="css/smoothbox.css" type='text/css' media="all" />
 <!--css-->
-    
+
+<!--css-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/ken-burns.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/animate.min.css" type="text/css" media="all" />
+<!--css-->
+
+<style>
+	/* Custom CSS for Video Grid */
+	.video-grid {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: space-between;
+		margin-top: 20px;
+	}
+	.video-item {
+		flex: 1 1 calc(33.333% - 20px);
+		box-sizing: border-box;
+	}
+	.embed-responsive {
+		margin-bottom: 20px;
+	}
+</style>
+
 <!--js-->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -267,9 +292,42 @@
 						</div>
 					<script type="text/javascript" src="js/smoothbox.jquery2.js"></script>
 				</div>
-                
 			</div>
             
+		</div>
+		<div class="container">
+			<h2 class="title">Our YouTube Videos</h2>
+			<div class="video-grid">
+				<!-- Video 1 -->
+				<div class="video-item">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" 
+								src="https://www.youtube.com/watch?v=MzA9DdgQpC0" 
+								allowfullscreen>
+						</iframe>
+					</div>
+				</div>
+				
+				<!-- Video 2 -->
+				<div class="video-item">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" 
+								src="https://www.youtube.com/watch?v=GtL95iycwx0" 
+								allowfullscreen>
+						</iframe>
+					</div>
+				</div>
+		
+				<!-- Video 3 -->
+				<div class="video-item">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" 
+								src="https://www.youtube.com/watch?v=lrswO5G7iTo" 
+								allowfullscreen>
+						</iframe>
+					</div>
+				</div>
+			</div>
 		</div>
     <div class="container">
         <div class="alert alert-info alert-dismissable">
@@ -281,7 +339,6 @@
     <div class="clearfix">
         </div>
 		<!--gallery-->
-
 		<!--footer-->
 			<div class="footer-w3">
 				<div class="container">
